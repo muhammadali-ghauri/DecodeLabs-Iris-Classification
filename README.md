@@ -59,6 +59,12 @@ The trained model was evaluated using:
 - Classification Report
 - Confusion Matrix
 
+### Confusion Matrix
+
+The confusion matrix below shows the classification results on the test dataset:
+
+![Iris Classification Confusion Matrix](confusion_matrix.png)
+
 For the selected train-test split, the model achieved:
 
 **Accuracy: 100.00%**

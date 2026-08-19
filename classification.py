@@ -105,6 +105,10 @@ display = ConfusionMatrixDisplay(
 display.plot()
 
 plt.title("Iris Classification - Confusion Matrix")
+
+# Save the confusion matrix as an image
+plt.savefig("confusion_matrix.png", dpi=300, bbox_inches="tight")
+
 plt.show()
 # ------------------------------------------------------------
 # 8. Predict the Species of a New Flower
